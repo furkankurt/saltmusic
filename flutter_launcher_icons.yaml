@@ -1,0 +1,18 @@
+# Flutter Launcher Icons config file
+# https://pub.dev/packages/flutter_launcher_icons
+
+# To generate new icons
+# flutter pub run flutter_launcher_icons:main
+
+flutter_icons:
+  android: "launcher_icon"
+  adaptive_icon_foreground: "assets/images/salt_music_logo_android_12.png"
+  adaptive_icon_background: "#220639"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/salt_music_logo.png"
+  web:
+    generate: true
+    image_path: "assets/images/salt_music_logo.png"
+    background_color: "#220639"
+    theme_color: "#220639"

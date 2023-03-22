@@ -1,0 +1,16 @@
+# Flutter Native Splash config file
+# https://pub.dev/packages/flutter_native_splash
+
+# To generate new icons
+# flutter pub run flutter_native_splash:create
+
+flutter_native_splash:
+  color: "#220639"
+  image: assets/images/salt_music_logo.png
+
+  android_12:
+    color: "#220639"
+    image: assets/images/salt_music_logo_android_12.png
+
+  android: true
+  ios: true
